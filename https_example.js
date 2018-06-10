@@ -15,8 +15,9 @@ const callback = function(response){
   
   // response.setEncoding('UTF8');
   
-  // The response parameter is a stream! 
+  // The response parameter is a stream (object)! 
   // Create a readStream event handler
+  // Data: an event that's fired when there is data available to read
   response.on('data', function(chunk){
     console.log(`-- CHUNK OF LENGTH ${chunk.length} --`);
     
