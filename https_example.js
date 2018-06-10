@@ -5,8 +5,8 @@ console.log('I did it!');
 // Create options Object
 // options syntax: https://nodejs.org/api/http.html#http_http_request_options_callback
 const options = {
-  host: 'www.example.org',
-  path: '/'
+  host: 'stream-large-file.herokuapp.com',
+  path: '/give-me-stuff-now'
 };
 
 // Callback function, called by https when the request is made.
